@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem",
+          "nbt": "{Tags:[\"projectcopper.iron_golem\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "projectcopper:mob/on_iron_golem_kill"
+  }
+}

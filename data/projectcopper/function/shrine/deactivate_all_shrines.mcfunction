@@ -1,0 +1,6 @@
+# Deactivate all shrines
+
+function projectcopper:shrine/deactivate_c_shrine
+function projectcopper:shrine/deactivate_ec_shrine
+function projectcopper:shrine/deactivate_wc_shrine
+function projectcopper:shrine/deactivate_oc_shrine

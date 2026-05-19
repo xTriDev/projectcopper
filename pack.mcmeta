@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Adds functionality to the Project Copper map.",
+    "min_format": [94, 0],
+    "max_format": [94, 1]
+  }
+}
