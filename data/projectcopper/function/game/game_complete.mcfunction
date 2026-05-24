@@ -1,5 +1,7 @@
 # Completes the game and shows a victory message
 
+scoreboard players set $game game_active 0
+
 title @a title {"text":"Puzzle Complete!","color":"green","bold":true}
 title @a subtitle {"text":"All rounds solved!","color":"green"}
 playsound minecraft:ui.toast.challenge_complete master @a ~ ~ ~ 1 1

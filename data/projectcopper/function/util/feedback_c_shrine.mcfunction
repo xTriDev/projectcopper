@@ -1,3 +1,4 @@
+# warn-off-file execute-group
 # Sends feedback messages for the copper shrine
 
 # Golem A

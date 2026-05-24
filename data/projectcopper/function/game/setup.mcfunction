@@ -7,6 +7,7 @@ function projectcopper:gate/close_all_gates
 function projectcopper:mob/kill_mobs
 
 # Scoreboard setup for shrine, golem, and game state
+scoreboard objectives add game_active dummy
 scoreboard objectives add round dummy
 scoreboard objectives add solved dummy
 
@@ -24,6 +25,7 @@ scoreboard objectives add shrine_feedback dummy
 scoreboard objectives add shrine_order dummy
 
 # Scoreboard setup for game state
+scoreboard players set $game game_active 1
 scoreboard players set $game round 1
 scoreboard players set $game solved 0
 
