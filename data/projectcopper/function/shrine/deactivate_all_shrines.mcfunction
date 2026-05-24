@@ -1,6 +1,6 @@
 # Deactivate all shrines
 
-function projectcopper:shrine/deactivate_c_shrine
-function projectcopper:shrine/deactivate_ec_shrine
-function projectcopper:shrine/deactivate_wc_shrine
-function projectcopper:shrine/deactivate_oc_shrine
+place template projectcopper:deactivated_copper_shrine 1011 10 1011
+place template projectcopper:deactivated_exposed_shrine 985 10 985
+place template projectcopper:deactivated_weathered_shrine 985 10 1011
+place template projectcopper:deactivated_oxidized_shrine 1011 10 985
