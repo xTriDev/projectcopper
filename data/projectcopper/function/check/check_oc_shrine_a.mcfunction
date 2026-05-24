@@ -1,6 +1,4 @@
-# Check Oxidized Copper Shrine Golem Spot A  (1012 16 986)
-# Oxidation fixed: 3 (waxed_oxidized_copper_golem_statue)
-# Scores 3 if oxidation + facing + pose are all correct.
+# Check Oxidized Copper Shrine Golem Spot A 
 
 # Oxidation
 execute if block 1012 16 986 minecraft:waxed_oxidized_copper_golem_statue run scoreboard players add $ocShrine shrine_score 1

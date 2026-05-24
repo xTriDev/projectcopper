@@ -5,6 +5,6 @@ function projectcopper:effect/apply_charged
 
 # Opens the active gate for x seconds
 function projectcopper:gate/open_active_gate
-schedule function projectcopper:gate/close_active_gate 10s
+schedule function projectcopper:gate/close_active_gate 8s
 
 advancement revoke @s only projectcopper:mob/kill_iron_golem
