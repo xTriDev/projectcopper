@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+          "nbt": "{Tags:[\"projectcopper.enderman\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "projectcopper:mob/on_enderman_kill"
+  }
+}

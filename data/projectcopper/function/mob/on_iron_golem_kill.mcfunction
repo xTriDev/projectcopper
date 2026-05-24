@@ -7,4 +7,5 @@ function projectcopper:effect/apply_charged
 function projectcopper:gate/open_active_gate
 schedule function projectcopper:gate/close_active_gate 8s
 
+# Revoke the advancement
 advancement revoke @s only projectcopper:mob/kill_iron_golem
