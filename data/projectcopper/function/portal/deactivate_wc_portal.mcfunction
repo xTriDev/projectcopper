@@ -5,3 +5,6 @@ playsound minecraft:block.beacon.deactivate block @a 969 12 1046 1 2 0
 
 # Places portal structure at coords
 place template projectcopper:portal_inactive 967 10 1046
+
+# Disable portal teleport
+scoreboard players set $wcShrine portal_active 0

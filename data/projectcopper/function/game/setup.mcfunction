@@ -2,11 +2,12 @@
 
 # Reset game to neutral state
 function projectcopper:shrine/deactivate_all_shrines
+function projectcopper:golem/clear_shrine_golems
 function projectcopper:portal/deactivate_all_portals
 function projectcopper:gate/close_all_gates
 function projectcopper:mob/kill_mobs
 
-# Scoreboard setup for shrine, golem, and game state
+# Scoreboard setup for shrine, golem, portal, and game state
 scoreboard objectives add game_active dummy
 scoreboard objectives add round dummy
 scoreboard objectives add solved dummy
@@ -23,6 +24,7 @@ scoreboard objectives add golem_c_pose dummy
 scoreboard objectives add shrine_score dummy
 scoreboard objectives add shrine_feedback dummy
 scoreboard objectives add shrine_order dummy
+scoreboard objectives add portal_active dummy
 
 # Scoreboard setup for game state
 scoreboard players set $game game_active 1
@@ -39,6 +41,11 @@ scoreboard players set $ecShrine shrine_feedback 0
 scoreboard players set $wcShrine shrine_feedback 0
 scoreboard players set $ocShrine shrine_feedback 0
 
+scoreboard players set $cShrine portal_active 0
+scoreboard players set $ecShrine portal_active 0
+scoreboard players set $wcShrine portal_active 0
+scoreboard players set $ocShrine portal_active 0
+
 # Initialize default order
 scoreboard players set $cShrine shrine_order 1
 scoreboard players set $ecShrine shrine_order 2
@@ -52,4 +59,4 @@ function projectcopper:game/shuffle_shrine_order
 tellraw @a {"text":"Setup complete!","color":"green","bold":true}
 
 # Schedule the start of the first round after a short delay
-schedule function projectcopper:game/start_round 3s
+schedule function projectcopper:game/round_start 3s

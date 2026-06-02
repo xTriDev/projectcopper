@@ -20,4 +20,4 @@ scoreboard players add $game round 1
 execute if score $game round matches 4.. run function projectcopper:game/game_complete
 
 # Otherwise roll the next round
-execute if score $game round matches ..3 run function projectcopper:game/start_round
+execute if score $game round matches ..3 run function projectcopper:game/round_start
