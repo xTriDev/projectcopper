@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "death": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Health:0.0f}",
+          "tags": ["projectcopper.charged"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "projectcopper:effect/on_charged_player_death"
+  }
+}
