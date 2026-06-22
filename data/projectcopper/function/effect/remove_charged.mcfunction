@@ -2,4 +2,5 @@
 
 effect clear @s minecraft:glowing
 tag @s remove projectcopper.charged
-advancement revoke @s only projectcopper:player/charged_expired
+
+say @s "The charged effect has been removed."

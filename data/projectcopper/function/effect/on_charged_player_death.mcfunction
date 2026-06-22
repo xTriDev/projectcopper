@@ -1,3 +1,4 @@
+# warn-off-file execute-group
 # If player dies with charged effect, summon the breeze and remove the effect and tag from the player
 
 execute if entity @s[tag=projectcopper.charged] run function projectcopper:mob/summon_breeze

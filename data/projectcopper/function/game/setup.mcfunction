@@ -1,12 +1,5 @@
 # Setup for the game
 
-# Reset game to neutral state
-function projectcopper:shrine/deactivate_all_shrines
-function projectcopper:golem/clear_shrine_golems
-function projectcopper:portal/deactivate_all_portals
-function projectcopper:gate/close_all_gates
-function projectcopper:mob/kill_mobs
-
 # Scoreboard setup for shrine, golem, portal, and game state
 scoreboard objectives add game_active dummy
 scoreboard objectives add round dummy
@@ -26,31 +19,8 @@ scoreboard objectives add shrine_feedback dummy
 scoreboard objectives add shrine_order dummy
 scoreboard objectives add portal_active dummy
 
-# Scoreboard setup for game state
-scoreboard players set $game game_active 1
-scoreboard players set $game round 1
-scoreboard players set $game solved 0
-
-scoreboard players set $cShrine shrine_score 0
-scoreboard players set $ecShrine shrine_score 0
-scoreboard players set $wcShrine shrine_score 0
-scoreboard players set $ocShrine shrine_score 0
-
-scoreboard players set $cShrine shrine_feedback 0
-scoreboard players set $ecShrine shrine_feedback 0
-scoreboard players set $wcShrine shrine_feedback 0
-scoreboard players set $ocShrine shrine_feedback 0
-
-scoreboard players set $cShrine portal_active 0
-scoreboard players set $ecShrine portal_active 0
-scoreboard players set $wcShrine portal_active 0
-scoreboard players set $ocShrine portal_active 0
-
-# Initialize default order
-scoreboard players set $cShrine shrine_order 1
-scoreboard players set $ecShrine shrine_order 2
-scoreboard players set $wcShrine shrine_order 3
-scoreboard players set $ocShrine shrine_order 4
+# Reset game to neutral state
+function projectcopper:cleanup/reset_game
 
 # Shuffle the order of the shrines for this game
 function projectcopper:game/shuffle_shrine_order
