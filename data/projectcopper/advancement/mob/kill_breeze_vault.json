@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:breeze",
+          "nbt": "{Tags:[\"projectcopper.breeze_vault\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "projectcopper:mob/on_breeze_vault_kill"
+  }
+}

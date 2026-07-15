@@ -1,10 +1,7 @@
+# warn-off-file target-selector-no-type
 # warn-off-file target-selector-no-dimension
-# Kills summoned mobs
+# Kills mobs with projectcopper.mob tag
 
-execute as @e[tag=projectcopper.iron_golem,type=minecraft:iron_golem] run data merge entity @s {DeathLootTable:"projectcopper:mob/empty"}
-execute as @e[tag=projectcopper.breeze,type=minecraft:breeze] run data merge entity @s {DeathLootTable:"projectcopper:mob/empty"}
-execute as @e[tag=projectcopper.enderman,type=minecraft:enderman] run data merge entity @s {DeathLootTable:"projectcopper:mob/empty"}
+execute as @e[tag=projectcopper.mob] run data merge entity @s {DeathLootTable:"projectcopper:mob/empty"}
 
-kill @e[tag=projectcopper.iron_golem,type=minecraft:iron_golem]
-kill @e[tag=projectcopper.breeze,type=minecraft:breeze]
-kill @e[tag=projectcopper.enderman,type=minecraft:enderman]
+kill @e[tag=projectcopper.mob]

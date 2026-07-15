@@ -1,0 +1,10 @@
+# Summons the breeze at the coords based on the activated shrine
+
+execute if score $cShrine shrine_order = $game round run summon minecraft:breeze 1055 10 1000 \
+{Tags:["projectcopper.breeze_vault","projectcopper.mob"],PersistenceRequired:1b,DeathLootTable:"projectcopper:mob/empty"}
+execute if score $ecShrine shrine_order = $game round run summon minecraft:breeze 945 10 1000 \
+{Tags:["projectcopper.breeze_vault","projectcopper.mob"],PersistenceRequired:1b,DeathLootTable:"projectcopper:mob/empty"}
+execute if score $wcShrine shrine_order = $game round run summon minecraft:breeze 1000 11 1055 \
+{Tags:["projectcopper.breeze_vault","projectcopper.mob"],PersistenceRequired:1b,DeathLootTable:"projectcopper:mob/empty"}
+execute if score $ocShrine shrine_order = $game round run summon minecraft:breeze 1000 10 945 \
+{Tags:["projectcopper.breeze_vault","projectcopper.mob"],PersistenceRequired:1b,DeathLootTable:"projectcopper:mob/empty"}
