@@ -5,12 +5,12 @@
       "conditions": {
         "entity": {
           "type": "minecraft:breeze",
-          "nbt": "{Tags:[\"projectcopper.breeze_vault\"]}"
+          "nbt": "{Tags:[\"projectcopper.chamber_breeze\"]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "projectcopper:mob/on_breeze_vault_kill"
+    "function": "projectcopper:mob/on_chamber_breeze_kill"
   }
 }

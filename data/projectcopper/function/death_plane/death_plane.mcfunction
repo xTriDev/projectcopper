@@ -12,9 +12,9 @@ run function projectcopper:death_plane/respawn_iron_golem
 execute if entity @e[tag=projectcopper.breeze,x=870,y=-55,z=870,dx=260,dy=-5,dz=260,type=minecraft:breeze] \
 run function projectcopper:death_plane/respawn_breeze
 
-# Breeze Vault
-execute if entity @e[tag=projectcopper.breeze_vault,x=870,y=-55,z=870,dx=260,dy=-5,dz=260,type=minecraft:breeze] \
-run function projectcopper:death_plane/respawn_breeze_vault
+# Breeze Chamber
+execute if entity @e[tag=projectcopper.chamber_breeze,x=870,y=-55,z=870,dx=260,dy=-5,dz=260,type=minecraft:breeze] \
+run function projectcopper:death_plane/respawn_chamber_breeze
 
 # Enderman
 execute if entity @e[tag=projectcopper.enderman,x=870,y=-55,z=870,dx=260,dy=-5,dz=260,type=minecraft:enderman] \
