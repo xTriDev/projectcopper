@@ -4,11 +4,27 @@
 scoreboard players set $game game_active 1
 scoreboard players set $game round 1
 scoreboard players set $game solved 0
+scoreboard players set $game game_fail 0
 
 scoreboard players set $cShrine shrine_score 0
 scoreboard players set $ecShrine shrine_score 0
 scoreboard players set $wcShrine shrine_score 0
 scoreboard players set $ocShrine shrine_score 0
+
+scoreboard players set $cShrine shrine_oxidation_score 0
+scoreboard players set $ecShrine shrine_oxidation_score 0
+scoreboard players set $wcShrine shrine_oxidation_score 0
+scoreboard players set $ocShrine shrine_oxidation_score 0
+
+scoreboard players set $cShrine shrine_pose_score 0
+scoreboard players set $ecShrine shrine_pose_score 0
+scoreboard players set $wcShrine shrine_pose_score 0
+scoreboard players set $ocShrine shrine_pose_score 0
+
+scoreboard players set $cShrine shrine_facing_score 0
+scoreboard players set $ecShrine shrine_facing_score 0
+scoreboard players set $wcShrine shrine_facing_score 0
+scoreboard players set $ocShrine shrine_facing_score 0
 
 scoreboard players set $cShrine shrine_feedback 0
 scoreboard players set $ecShrine shrine_feedback 0

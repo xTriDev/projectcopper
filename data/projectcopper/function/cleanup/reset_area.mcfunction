@@ -1,7 +1,7 @@
 # Reset game area to neutral state
 
 function projectcopper:shrine/deactivate_all_shrines
-function projectcopper:golem/clear_shrine_golems
+function projectcopper:shrine_golem/clear_shrine_golems
 function projectcopper:shrine/remove_shrine_plates
 function projectcopper:portal/deactivate_all_portals
 function projectcopper:gate/close_all_gates
