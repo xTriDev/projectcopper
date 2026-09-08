@@ -8,7 +8,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Health:0.0f,Tags:[\"projectcopper.charged\"]}"
+              "minecraft:entity_type": "minecraft:player",
+              "minecraft:nbt": "{Health:0.0f,Tags:[\"projectcopper.charged\"]}"
             }
           }
         ]

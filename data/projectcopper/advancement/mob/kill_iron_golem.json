@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:iron_golem",
-          "nbt": "{Tags:[\"projectcopper.iron_golem\"]}"
+          "minecraft:entity_type": "minecraft:iron_golem",
+          "minecraft:nbt": "{Tags:[\"projectcopper.iron_golem\"]}"
         }
       }
     }

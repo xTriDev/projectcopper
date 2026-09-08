@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:breeze",
-          "nbt": "{Tags:[\"projectcopper.chamber_breeze\"]}"
+          "minecraft:entity_type": "minecraft:breeze",
+          "minecraft:nbt": "{Tags:[\"projectcopper.chamber_breeze\"]}"
         }
       }
     }
