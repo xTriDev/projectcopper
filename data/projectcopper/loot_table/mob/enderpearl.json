@@ -1,16 +1,25 @@
 {
-  "type": "minecraft:entity",
+  "type": "entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:ender_pearl",
           "functions": [
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{projectcopper_item:1b}"
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "projectcopper_item": true
+                }
+              }
             }
           ]
         }

@@ -26,3 +26,6 @@ execute if score $ocShrine shrine_order = $game round if score $ocShrine plate_u
 
 # Remove the charged effect from the player who triggered the plate
 function projectcopper:effect/remove_charged
+
+# Summon vindicator inside the chamber of the activated shrine
+function projectcopper:mob/summon_vindicator
