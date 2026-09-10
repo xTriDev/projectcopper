@@ -36,6 +36,11 @@ scoreboard players set $ecShrine portal_active 0
 scoreboard players set $wcShrine portal_active 0
 scoreboard players set $ocShrine portal_active 0
 
+scoreboard players set $cShrine plate_uses 0
+scoreboard players set $ecShrine plate_uses 0
+scoreboard players set $wcShrine plate_uses 0
+scoreboard players set $ocShrine plate_uses 0
+
 # Reset the shrine order to default
 scoreboard players set $cShrine shrine_order 1
 scoreboard players set $ecShrine shrine_order 2

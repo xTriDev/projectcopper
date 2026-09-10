@@ -2,7 +2,7 @@
 
 function projectcopper:shrine/deactivate_all_shrines
 function projectcopper:shrine_golem/clear_shrine_golems
-function projectcopper:shrine/remove_shrine_plates
+function projectcopper:shrine_plate/remove_shrine_plates
 function projectcopper:portal/deactivate_all_portals
 function projectcopper:gate/close_all_gates
 function projectcopper:mob/kill_mobs

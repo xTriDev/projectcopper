@@ -22,6 +22,7 @@ scoreboard objectives add shrine_facing_score dummy
 scoreboard objectives add shrine_feedback dummy
 scoreboard objectives add shrine_order dummy
 scoreboard objectives add portal_active dummy
+scoreboard objectives add plate_uses dummy
 
 # Reset game to neutral state
 function projectcopper:cleanup/reset_game

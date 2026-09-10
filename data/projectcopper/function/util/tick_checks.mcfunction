@@ -6,3 +6,4 @@ execute if score $game game_active matches 1 run function projectcopper:shrine_g
 execute if score $game game_active matches 1 run function projectcopper:death_plane/death_plane
 execute if score $game game_active matches 1 run function projectcopper:portal/check_portal_teleport
 execute if score $game game_active matches 1 run function projectcopper:effect/check_charged_expired
+execute if score $game game_active matches 1 run function projectcopper:shrine_plate/check_shrine_plate
