@@ -30,6 +30,9 @@ function projectcopper:cleanup/reset_game
 # Shuffle the order of the shrines for this game
 function projectcopper:game/shuffle_shrine_order
 
+# Set the game_active flag to 1 to indicate the game is now active
+scoreboard players set $game game_active 1
+
 # Response to the player that setup is complete
 tellraw @a {"text":"Setup complete!","color":"light_purple"}
 

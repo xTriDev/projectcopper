@@ -1,7 +1,7 @@
 # Reset the scoreboard values
 
 # Reset scoreboard values to default
-scoreboard players set $game game_active 1
+scoreboard players set $game game_active 0
 scoreboard players set $game round 1
 scoreboard players set $game solved 0
 scoreboard players set $game game_fail 0
