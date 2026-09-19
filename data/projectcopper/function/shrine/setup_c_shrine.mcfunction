@@ -13,3 +13,7 @@ execute store result score $cShrine golem_c_facing run random value 0..3
 execute store result score $cShrine golem_c_pose run random value 0..3
 
 function projectcopper:shrine/activate_c_shrine
+
+summon minecraft:marker 1013 10 1013 {Tags:["projectcopper.reader_pending","projectcopper.reader_a"]}
+summon minecraft:marker 1013 10 1013 {Tags:["projectcopper.reader_pending","projectcopper.reader_b"]}
+summon minecraft:marker 1013 10 1013 {Tags:["projectcopper.reader_pending","projectcopper.reader_c"]}
