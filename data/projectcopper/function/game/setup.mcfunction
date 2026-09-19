@@ -30,6 +30,9 @@ function projectcopper:cleanup/reset_game
 # Shuffle the order of the shrines for this game
 function projectcopper:game/shuffle_shrine_order
 
+# Spawn markers for the game
+function projectcopper:marker/marker_spawn
+
 # Set the game_active flag to 1 to indicate the game is now active
 scoreboard players set $game game_active 1
 
