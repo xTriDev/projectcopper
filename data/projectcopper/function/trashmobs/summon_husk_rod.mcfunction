@@ -1,0 +1,3 @@
+# Summons a husk with a fishing rod in the central area
+
+execute at @e[type=marker,tag=mid_ads_3] run summon husk ~ ~ ~ {DeathLootTable:"mob/empty",PersistenceRequired:1b,Health:18f,IsBaby:0b,Tags:["projectcopper.mob"],equipment:{mainhand:{id:"minecraft:fishing_rod",count:1,components:{"minecraft:attribute_modifiers":[{id:"attack_damage",type:"attack_damage",amount:3,operation:"add_value"},{id:"attack_knockback",type:"attack_knockback",amount:2,operation:"add_value"}]}}},drop_chances:{mainhand:0.000},attributes:[{id:"minecraft:max_health",base:18},{id:"minecraft:movement_speed",base:0.33}]}
